@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+nav{
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+}
+.iconHome {
+    margin-left: 40px;
+    text-decoration: none;
+    color: white; 
+}
+.iconAccount{
+    margin-right: 40px;
+    color: white; 
+    text-decoration: none;
+}
+
+strong{
+    font-size: 25px;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td, tr{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.album{
+    padding-top: 10px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.col:first-child {
+    flex: 0.3;
+}
+
+form{
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px; 
+    font-size: 12px; 
+    text-align: center;
+}

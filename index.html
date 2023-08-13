@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/84/530/png-transparent-film-clapperboard-computer-icons-cinema-shows-miscellaneous-angle-photography.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>STORYLAND</title>
+</head>
+<body>
+    <video muted loop autoplay id="background" src="fondo.mp4"></video>
+    <nav>
+        <a class="material-symbols-outlined iconHome" href="index.html">home</a>
+        <a class="material-symbols-outlined iconAccount" href="">account_circle</a>
+    </nav>
+    <div id="main" style="margin: 15px;">
+        <div class="row" style="align-content: center;">
+            <div class="col galerias">
+                <a href="accion.html">
+                    <img src="https://as01.epimg.net/epik/imagenes/2019/06/03/portada/1559573314_873311_1559575720_noticia_normal.jpg" alt="accion">
+                    <div class="generos">Acción</div>
+                </a>
+            </div>
+            <div class="col galerias">
+                <a href="">
+                    <img src="https://geekzilla.tech/home/wp-content/uploads/2022/02/nonamealiens.jpg" alt="cienciaFiccion">
+                    <div class="generos">Ciencia<br>Ficción</div>
+                </a>
+            </div>
+            <div class="col galerias">
+                <a href="">
+                    <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/01/pennywise.jpg?tf=3840x" alt="terror">
+                    <div class="generos">Terror</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row" style="align-content: center; padding-top: 5px;">
+            <div class="col galerias">
+                <a href="">
+                    <img src="https://www.cinepremiere.com.mx/wp-content/uploads/2020/09/peliculas-de-comedia-900x506.jpg" alt="terror">
+                    <div class="generos">Comedia</div>
+                </a>
+            </div>
+            <div class="col" style="z-index: 1000; text-align: center; color: white;">
+                <h1 style="font-family:cursive;">STORYLAND</h1>
+            </div>
+            <div class="col galerias">
+                <a href="">
+                    <img src="data:image/jpeg;base64,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" alt="terror">
+                    <div class="generos">Drama</div>
+                </a>
+            </div>
+        </div>
+            
+        <div class="row" style="align-content: center; margin-top: 5px;">
+            <div class="col galerias">
+                <a href="aventura.html">
+                    <img src="https://www.dameocio.com/wp-content/uploads/2017/07/pel%C3%ADculas-de-aventuras.jpg" alt="accion">
+                    <div class="generos">Aventura</div>
+                </a>
+            </div>
+            <div class="col galerias">
+                <a href="">
+                    <img src="https://stz1.imgix.net/web_co/contentId/60193/type/STUDIO/dimension/2560x1440/lang/es-419?auto=compress,format&w=355&fit=max" alt="cienciaFiccion">
+                    <div class="generos">Thriller</div>
+                </a>
+            </div>
+            <div class="col galerias">
+                <a href="musical.html">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejh6fbFudKuRqxWMYhMKxVM5YaBZRMXVImg&usqp=CAU" alt="terror">
+                    <div class="generos">Musical</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+</html>
